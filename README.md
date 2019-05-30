@@ -1,4 +1,4 @@
-# overshot generator
+# overshot pattern generator
 An interface that allows one to design a specific overshot pattern using key commands. 
 
 The generator is written with Processing and will require one to download Processing in order to open and run the file. When the file is running, the software will generate the overshot pattern based on weave stitches. 
