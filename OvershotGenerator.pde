@@ -1,8 +1,9 @@
+int warps = 780;
 int dim_cell = 5;
 
-int  width = 780*dim_cell;
-int  height = 15*dim_cell; 
 
+
+int  height = 15*dim_cell; 
 
 
 
@@ -20,7 +21,9 @@ String error;
 void setup() {
   println("setup");
 
-  size(7810, 350);
+  //REPLACE THIS WITH A LARGER OR SMALLER WINDOW AS YOU NEED
+  //the best way to calculate is to input the value of warps multiplied by the value of dim_cell
+  size(3920, 350);
   background(255);
   
   error = "";
@@ -216,7 +219,7 @@ void printStats(){
     }
     
     for(int i = 0; i<6; i++){
-      println("shaft "+i+": "+counts[i]);
+      println("shaft "+(i+1)+": "+counts[i]);
     }
 }
 
