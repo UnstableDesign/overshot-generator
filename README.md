@@ -74,7 +74,7 @@ I used 8/2 raw cotton in the warp, weft, and 8/2 blue tencel in the warp and fou
 ![Cloak](http://unstable.design/wp-content/uploads/2019/10/IMG_6631.jpg)
 I used the clock to make an interactive protoype, experimenting also with some funky introductions of knitted i-cord to create ties and sensors. 
 
-![Cloak2](http://unstable.design/wp-content/uploads/2019/10/IMG_6708-1.jpg)
+![Cloak2](http://unstable.design/wp-content/uploads/2019/10/IMG_6708.jpg)
 I created two panels of this fabric, repeating the treadling order to achieve an alignment between the layers. I cut one panel nearly in half to make it into a wearable cloak. 
 
 ![Cloak3](http://unstable.design/wp-content/uploads/2019/10/IMG_6827.jpg)
