@@ -1,22 +1,24 @@
 # overshot pattern generator
-An interface that allows one to design a specific overshot pattern using key commands. 
+This is a Processing sketch that allows someone to design a specific overshot pattern using key commands. I used it in my own weaving practice to more quickly "sketch" and visualize different combinations of overshot patterns that would automatically translate into the threading pattern.  
 
 The generator is written with Processing and will require one to download Processing in order to open and run the file. When the file is running, the software will generate the overshot pattern based on the commands the user inputs. 
 
 This code is written to generate an overshot pattern for an 8-shaft loom (though only 6 of the shafts are used). It is based on a loom (e.g. my loom) which will be warped at 30 epi and will contain a total of 780 warps (for a 26" wide weave). The color scheme displayed in the generator assumes a white warp and tan and red sections within the weft. I intend to use a floating selvedge on the loom to keep the edges well formed.
 
-I generated this base pattern from a textile I saw a friends house. Her family is Danish and someone in her family wove it to serve as a long table runner. Unlike the other overshot patterns that I have seen, this pattern slighlty overlaps the floating sections between successive weft rows. This overlapping gives it a more interesting texture (in my opinion). The weft coloring alternates along the length of the fabric. For instance:
-if a tan sections alternates between:   tan/floats, white/plain, tan/floats
-then the red regions alternate:         white/plain, red/floats, white/plain  
+# inspiration
+I generated this base pattern from a textile I saw a friend, Kristina Andersen's house. The weave was designed and fabricated originally by Ruth Bergesen (Kristina's godmother).  Unlike the other overshot patterns that I have seen, this pattern slighlty overlaps the floating sections between successive weft rows. This overlapping gives it a more interesting texture (in my opinion). The weft coloring alternates along the length of the fabric.
 
-I created this code because it was difficult to get the tie up right doing it all by hand and I wanted to allow myself a bit of playfulness in composing the patterning along the warp. I hope others might find it useful and playful as well. 
+![The Original Weave](http://unstable.design/wp-content/uploads/2019/10/original.jpg)
 
 # pattern basics
+I created this code because it was difficult to get the tie up right doing it all by hand and I wanted to allow myself a bit of playfulness in composing the patterning along the warp. I hope others might find it useful and playful as well. I began by printing the original image and "decoding" the pattern back into a draft using Excel: 
+
 ![Tie Up and Treadling Pattern](http://unstable.design/wp-content/uploads/2019/10/tieup.png)
 
 
-
 # features
+if a tan sections alternates between:   tan/floats, white/plain, tan/floats
+then the red regions alternate:         white/plain, red/floats, white/plain  
 
 ## using keyboard inputs to design the warp tie ups
 When the code is running, the user is able to enter commands (e.g. A8, B7, C6) that tell the program to repeat pattern A for 8 warps, pattern B across 7 warps, and so on and so on. Each time a command is typed, it appears in the draft and also shows a crude visualation of how the region will appear when woven (based on two set treadling patterns).
