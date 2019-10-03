@@ -80,6 +80,13 @@ I created two panels of this fabric, repeating the treadling order to achieve an
 ![Cloak3](http://unstable.design/wp-content/uploads/2019/10/IMG_6827.jpg)
 A final detail shot of the tie and fabric.
 
+![Cloak4](http://unstable.design/wp-content/uploads/2019/10/chanting_electronics_detail.jpg)
+The final cloak has a Teensy audio board embedded. The chest tie senses your inhales and initiates audio playback upon exhale. I use it for chanting/screaming with recorded sounds of motors. 
+
+![Cloak5](http://unstable.design/wp-content/uploads/2019/10/chantingCloak.jpeg)
+Front and back of finalized cloak.
+
+
 
 
 
