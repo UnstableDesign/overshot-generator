@@ -12,7 +12,7 @@ then the red regions alternate:         white/plain, red/floats, white/plain
 I created this code because it was difficult to get the tie up right doing it all by hand and I wanted to allow myself a bit of playfulness in composing the patterning along the warp. I hope others might find it useful and playful as well. 
 
 # pattern basics
-![Tie Up and Treadling Pattern](http://unstable.design/wp-admin/upload.php?item=719)
+![Tie Up and Treadling Pattern](http://unstable.design/wp-content/uploads/2019/10/tieup.png)
 
 
 
