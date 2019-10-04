@@ -1,12 +1,12 @@
 # overshot pattern generator
-This is a Processing sketch that allows someone to design a specific overshot pattern using key commands. I used it in my own weaving practice to more quickly "sketch" and visualize different combinations of overshot patterns that would automatically translate into the threading pattern.  
+This is a Processing sketch that allows someone to design a specific overshot pattern using text commands. I used it in my own weaving practice to more quickly "sketch" and visualize different combinations of overshot patterns. As I type, the code would automatically translate into the threading pattern and show me a crude simulation of how the colors would overlap with different treadling combinations.  
 
-The generator is written with Processing and will require one to download Processing in order to open and run the file. When the file is running, the software will generate the overshot pattern based on the commands the user inputs. 
+The generator is written with [Processing](https://processing.org/) and will require one to download Processing in order to open and run the file. When the file is running, the software will generate the overshot pattern based on the commands the user inputs. 
 
-This code is written to generate an overshot pattern for an 8-shaft loom (though only 6 of the shafts are used). It is based on a loom (e.g. my loom) which will be warped at 30 epi and will contain a total of 780 warps (for a 26" wide weave). The color scheme displayed in the generator assumes a white warp and tan and red sections within the weft. I intend to use a floating selvedge on the loom to keep the edges well formed.
+This code is written to generate an overshot pattern for an 8-shaft loom (though only 6 of the shafts are used). It is based on my loom, which is warped at 30 epi with 8/2 raw cotton and will contain a total of 780 warps (for a 26" wide weave). The color scheme displayed in the generator assumes a white warp and tan and red sections within the weft. I intend to use a floating selvedge to keep the edges well formed.
 
 # inspiration
-I generated this base pattern from a textile I saw a friend, Kristina Andersen's house. The weave was designed and fabricated originally by Ruth Bergesen (Kristina's godmother).  Unlike the other overshot patterns that I have seen, this pattern slighlty overlaps the floating sections between successive weft rows. This overlapping gives it a more interesting texture (in my opinion). The weft coloring alternates along the length of the fabric.
+I generated this base pattern from a textile I saw at a good friend, Kristina Andersen's, house. The weave was designed and fabricated originally by Ruth Bergesen (Kristina's godmother). Unlike the other overshot patterns that I have seen, this pattern slighlty overlaps the floating sections between successive weft sections. This overlapping gives it a more interesting texture (in my opinion). The weft coloring alternates along the length of the fabric.
 
 ![The Original Weave](http://unstable.design/wp-content/uploads/2019/10/original.jpg)
 
@@ -14,7 +14,6 @@ I generated this base pattern from a textile I saw a friend, Kristina Andersen's
 I created this code because it was difficult to get the tie up right doing it all by hand and I wanted to allow myself a bit of playfulness in composing the patterning along the warp. I hope others might find it useful and playful as well. I began by printing the original image and "decoding" the pattern back into a draft using Excel. This image shows this original decoding, treadling order, and tie up. Basically, the patterning alternatites between plain weave (white), overshot pattern (color), then complementary plain weave (white), then the overshot pattern again (color). Two alternating, complementary overshot patterns are used in tandem with teh coloring to create the illustions of intesecting bands through the lengths of the fabric. 
 
 ![Tie Up and Treadling Pattern](http://unstable.design/wp-content/uploads/2019/10/tieup.png)
-
 
 # the pattern generator
 As I moved the pattern into my generator, I decided to change the colors between blue, white and tan into red, white and tan. The color scheme in the generator follows this pattern:
