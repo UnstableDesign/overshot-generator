@@ -42,6 +42,7 @@ Once you have your file designed you can hit "return" to export an image of your
 
 ## heddle counts
 When you hit enter, the code will calculate how many heddles will be required on each frame. This will print just under the code window and will take the form of "Shaft 1: 150", etc. This means that your first frame or shaft will require the use of 150 heddles. 
+
 ![The heddles](http://unstable.design/wp-content/uploads/2019/10/stats1.png)
 
 
